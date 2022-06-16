@@ -1,0 +1,68 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 2rem 0 ;
+    font-family: 'Rubik', sans-serif;
+
+    .brand{
+        font-size: 2rem;
+    }
+
+    .search{
+        display: flex;
+        background-color: #F6F6F6;
+        margin-left: 10rem;
+        width: 40rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+
+        .icon{
+            color: rgba(28, 46, 69, 0.6);
+        }
+        
+        .search_btn{
+            background: none;
+            border: none;
+            margin: 0 1rem;
+        }
+    
+        input{
+            background: none;
+            border: none;
+           
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+    .profile{
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 4rem;
+            border-radius: 50px;
+            margin: 0 1rem;
+        }
+
+        span {
+            h2{
+                font-size: 1rem;
+                font-weight: 500;  
+            }
+            p{
+                font-size: 0.7rem;
+                margin: 0.5rem 0;
+            }
+        }
+
+        button{
+            background: none;
+            border: none;
+            margin: 0 1rem;
+        }
+    }
+
+}
